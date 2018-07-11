@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+	<title>PIZZA INC</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/jquery.mobile-1.3.0.min.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery.mobile-1.3.0.min.js"></script>
+</head>
+<body>
+ <!-- pagina de inicio-->
+   <div data-role="page" id="inicio">
+   <div data-role="header" >
+   	<a href="#inicio" data-icon="home">INICIO</a>
+   	<h1><img src="images/logo.png"></h1>
+   	<a href="#productos" data-icon="grid">Productos</a>
+   	<nav data-role="navbar">
+   		<ul>
+   			<li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+   			<li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+   			<li><a href="#sucursales" data-icon="search" data-theme="e">Suacursales</a></li>
+   			<li><a href="#contactos" data-icon="info" data-theme="e">Contactos</a></li>
+   		</ul>
+   	</nav>
+   </div>
+<!--contenido-->
+   <div data-role="content">
+   	<img src="images/slide-2.png" style="height:300px;width:100%">
+   	<ul data-role="listview" data-inset="true" data-split-icon="gear" data-split-theme="e">
+   		<li data-role="list-divider">Promociones especiales del dia</li>
+   		<li>
+   			<a href="#">
+   				<img src="images/oferta.png">
+   				<h2>Promocion 1</h2>
+   				<p>Descrpcion de la paromocion</p>
+   				<a href="#promo" data-rel="popup" data-position-to="window" data-transition="pop">Mas informacion</a>
+   			</a>
+   		</li>
+
+        <li>
+   			<a href="#">
+   				<img src="images/oferta2.png">
+   				<h2>Promocion 2</h2>
+   				<p>Descrpcion de la paromocion</p>
+   				<a href="#promo" data-rel="popup" data-position-to="window" data-transition="pop">Mas informacion</a>
+   			</a>
+   		</li>
+
+   		<li>
+   			<a href="#">
+   				<img src="images/oferta.png">
+   				<h2>Promocion 3</h2>
+   				<p>Descrpcion de la paromocion</p>
+   				<a href="#promo" data-rel="popup" data-position-to="window" data-transition="pop">Mas informacion</a>
+   			</a>
+   		</li>
+
+   		<li>
+   			<a href="#">
+   				<img src="images/oferta2.png">
+   				<h2>Promocion 4</h2>
+   				<p>Descrpcion de la paromocion</p>
+   				<a href="#promo" data-rel="popup" data-position-to="window" data-transition="pop">Mas informacion</a>
+   			</a>
+   		</li>
+
+   	</ul>
+
+   	<div data-role="popup" id="promo" data-theme="e" class="ui-content" data-overlay-theme="b">
+   		<h3>Promocion</h3>
+   		<p>Los mejores precios solo en linea</p>
+   		<a href="index.php" data-role="button" data-rel="back" data-theme="b" data-icon="check" data-mini="true" data-inline="true">Comprar a solo 10.99</a>
+   	</div>
+
+   </div>
+<!--pie depagina-->
+   <div data-role="footer" data-position="fixed">
+   	<h4>Pizza Inc. 2018 Todos los derechos reservados</h4>
+   </div>  
+
+</div>
+<!--fin pagina inicio-->
+
+<!-- pagina acerca-->
+   <div data-role="page" id="acerca">
+   <div data-role="header" >
+   	<a href="#inicio" data-icon="home">INICIO</a>
+   	<h1><img src="images/logo.png"></h1>
+   	<a href="#productos" data-icon="grid">Productos</a>
+   	<nav data-role="navbar">
+   		<ul>
+   			<li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+   			<li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+   			<li><a href="#sucursales" data-icon="search" data-theme="e">Suacursales</a></li>
+   			<li><a href="#contactos" data-icon="info" data-theme="e">Contactos</a></li>
+   		</ul>
+   	</nav>
+   </div>
+<!--contenido-->
+   <div data-role="content">
+   	<div data-role="collapsible-set" data-theme="c" data-content-theme="d" data-collapsed-icon="arrow-r" data-expanded-icon="arrow-d">
+
+   	<div data-role="collapsible" data-theme="b" data-content-theme="b">
+   		<h3>Mision Empresarial</h3>
+   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	</div>
+
+   	<div data-role="collapsible" data-theme="b" data-content-theme="b">
+   		<h3>Vision Empresarial</h3>
+   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	</div>
+
+   	<div data-role="collapsible" data-theme="b" data-content-theme="b">
+   		<h3>Historia de la Empresa</h3>
+   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+   	</div>
+
+   	<div data-role="collapsible" data-theme="b" data-content-theme="b">
+   		<h3>Recursos Multimedia</h3>
+   		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+   		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+   		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+   		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+   		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+   		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+   		<video controls width="100%" poster="video/chef.jpg">
+   			<source src="video/video.mp4" type="video/mp4">
+               <source src="video/video.ogv" type="vide/ogv">
+                  <source src="video/video.webm" type="video/webm">
+   		</video>
+
+   	</div>
+   		
+   	</div>
+   </div>
+<!--pie depagina-->
+   <div data-role="footer">
+   	<h4>Pizza Inc. 2018 Todos los derechos reservados</h4>
+   </div>  
+
+</div>
+<!--fin pagina acerca-->
+
+<!-- pagina de productos-->
+   <div data-role="page" id="productos">
+   <div data-role="header" >
+      <a href="#inicio" data-icon="home">INICIO</a>
+      <h1><img src="images/logo.png"></h1>
+      <a href="#productos" data-icon="grid">Productos</a>
+      <nav data-role="navbar">
+         <ul>
+            <li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+            <li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+            <li><a href="#sucursales" data-icon="search" data-theme="e">Suacursales</a></li>
+            <li><a href="#contactos" data-icon="info" data-theme="e">Contactos</a></li>
+         </ul>
+      </nav>
+   </div>
+<!--contenido-->
+   <div data-role="content">
+      
+   </div>
+<!--pie depagina-->
+   <div data-role="footer">
+      <h4>Pizza Inc. 2018 Todos los derechos reservados</h4>
+   </div>  
+
+</div>
+<!--fin pagina de productos-->
+
+<!-- pagina sucursales-->
+   <div data-role="page" id="sucursales">
+   <div data-role="header" >
+      <a href="#inicio" data-icon="home">INICIO</a>
+      <h1><img src="images/logo.png"></h1>
+      <a href="#productos" data-icon="grid">Productos</a>
+      <nav data-role="navbar">
+         <ul>
+            <li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+            <li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+            <li><a href="#sucursales" data-icon="search" data-theme="e">Suacursales</a></li>
+            <li><a href="#contactos" data-icon="info" data-theme="e">Contactos</a></li>
+         </ul>
+      </nav>
+   </div>
+<!--contenido-->
+   <div data-role="content">
+      
+   </div>
+<!--pie depagina-->
+   <div data-role="footer">
+      <h4>Pizza Inc. 2018 Todos los derechos reservados</h4>
+   </div>  
+
+</div>
+<!--fin pagina sucursales-->
+
+<!-- pagina contactos-->
+   <div data-role="page" id="contactos">
+   <div data-role="header" >
+      <a href="#inicio" data-icon="home">INICIO</a>
+      <h1><img src="images/logo.png"></h1>
+      <a href="#productos" data-icon="grid">Productos</a>
+      <nav data-role="navbar">
+         <ul>
+            <li><a href="#acerca" data-icon="star" data-theme="e">Acerca</a></li>
+            <li><a href="#productos" data-icon="check" data-theme="e">Productos</a></li>
+            <li><a href="#sucursales" data-icon="search" data-theme="e">Suacursales</a></li>
+            <li><a href="#contactos" data-icon="info" data-theme="e">Contactos</a></li>
+         </ul>
+      </nav>
+   </div>
+<!--contenido-->
+   <div data-role="content">
+      
+   </div>
+<!--pie depagina-->
+   <div data-role="footer">
+      <h4>Pizza Inc. 2018 Todos los derechos reservados</h4>
+   </div>  
+
+</div>
+<!--fin pagina contactos-->
+
+</body>
+</html>
